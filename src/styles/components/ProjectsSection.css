@@ -1,0 +1,31 @@
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #1c1c1c;
+}
+
+.projects h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.projects p {
+  font-size: 1.2em;
+  color: #bbb;
+  font-family: 'Arial', sans-serif;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4aabcb;
+}

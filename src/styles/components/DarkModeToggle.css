@@ -1,0 +1,39 @@
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #4aabcb;
+  }
+  
+  body.dark-mode {
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  
+  body.dark-mode a {
+    color: #61dafb;
+  }
+  
+  body.dark-mode .btn {
+    background-color: #61dafb;
+    color: #fff;
+  }
+  
+  body.dark-mode .btn:hover {
+    background-color: #4aabcb;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #333;
+  }
+  

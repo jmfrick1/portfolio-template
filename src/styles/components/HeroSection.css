@@ -1,0 +1,47 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ddd;
+  font-family: 'Arial', sans-serif;
+}
+
+.custom-artwork {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  transition: transform 0.5s;
+}
+
+.custom-artwork:hover {
+  transform: scale(1.05);
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4aabcb;
+}
